@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  position: relative;
+  padding: 0;
   margin: 0;
-  background: #38a096;
+  background: #BF4689;
+  font-family: 'Roboto Slab', serif;
+
 }
 
+h1 {
+  color:#DCB2E5;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  padding:20px;
+  border-bottom: 30px solid #7F2F5B;
+  font-family: 'Monoton', cursive;
+}
 
 .header {
   margin: 0 auto;
@@ -16,25 +35,48 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 30px 40px;
+
 }
+
 input {
-height:50px;
-width:150px;
+  border-radius:10px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
 }
+
 input::placeholder {
-  padding:20px;
+  font-weight: 600;
+  text-align: center;
   font-size: 18px;
 }
 
-
-
-
 button {
   border-radius: 20px;
-  box-shadow: 5px 5px black;
-  height:50px;
-  width:100px;
+  height: 50px;
+  width: 120px;
   margin: 0 10px;
-  background-color: #c52f9f;
-  color:#fafafa;
+  background-color: #40172E;
+  color: #DCB2E5;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+.theList {
+
+  border-radius: 20px;
+  list-style-type: none;
+  background-color: #7F2F5B;
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+
+.listItem {
+  font-size: 20px;
+  padding:20px;
+  color: #DCB2E5;
+  margin-top:20px;
 }
