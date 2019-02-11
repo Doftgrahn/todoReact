@@ -21,9 +21,7 @@ class App extends Component {
     const filteredItems = this.state.items.filter(item => {
       return item.key !== key
     })
-    this.setState({
-      items: filteredItems,
-    })
+    this.setState({items: filteredItems})
   }
 
   handleInput = e => {
