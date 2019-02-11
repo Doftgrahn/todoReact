@@ -10,16 +10,19 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background: #bf4689;
+  background: linear-gradient(#bf4689, #7f2f5b);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items:  center; 
+  align-items:  center;
 
 }
 
 h1 {
+  margin:20px;
   font-family: 'Monoton', cursive;
   font-weight: bolder;
   text-align: center;
@@ -29,6 +32,7 @@ h1 {
 
 }
 h3 {
+  margin:20px;
   padding:20px;
   text-align: center;
   border-bottom: 30px solid #7f2f5b;
