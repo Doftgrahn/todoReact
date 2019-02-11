@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #38a096;
+}
+
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 40px;
+}
+input {
+height:50px;
+width:150px;
+}
+input::placeholder {
+  padding:20px;
+  font-size: 18px;
+}
+
+
+
+
+button {
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  height:50px;
+  width:100px;
+  margin: 0 10px;
+  background-color: #c52f9f;
+  color:#fafafa;
+}
